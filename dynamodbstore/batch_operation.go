@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.aaf.cloud/platform/keyvaluestore"
+	"github.com/theaaf/keyvaluestore"
 )
 
 type batchedGet struct {

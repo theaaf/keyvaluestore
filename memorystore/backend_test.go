@@ -3,8 +3,8 @@ package memorystore
 import (
 	"testing"
 
-	"github.aaf.cloud/platform/keyvaluestore"
-	"github.aaf.cloud/platform/keyvaluestore/keyvaluestoretest"
+	"github.com/theaaf/keyvaluestore"
+	"github.com/theaaf/keyvaluestore/keyvaluestoretest"
 )
 
 func TestBackend(t *testing.T) {

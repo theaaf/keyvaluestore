@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/pkg/errors"
 
-	"github.aaf.cloud/platform/keyvaluestore"
+	"github.com/theaaf/keyvaluestore"
 )
 
 type AtomicWriteOperation struct {

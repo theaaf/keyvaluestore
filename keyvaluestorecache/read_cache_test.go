@@ -3,10 +3,10 @@ package keyvaluestorecache_test
 import (
 	"testing"
 
-	"github.aaf.cloud/platform/keyvaluestore"
-	"github.aaf.cloud/platform/keyvaluestore/keyvaluestorecache"
-	"github.aaf.cloud/platform/keyvaluestore/keyvaluestoretest"
-	"github.aaf.cloud/platform/keyvaluestore/memorystore"
+	"github.com/theaaf/keyvaluestore"
+	"github.com/theaaf/keyvaluestore/keyvaluestorecache"
+	"github.com/theaaf/keyvaluestore/keyvaluestoretest"
+	"github.com/theaaf/keyvaluestore/memorystore"
 )
 
 func TestReadCache(t *testing.T) {

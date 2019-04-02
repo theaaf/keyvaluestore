@@ -1,6 +1,6 @@
 package keyvaluestorecache
 
-import "github.aaf.cloud/platform/keyvaluestore"
+import "github.com/theaaf/keyvaluestore"
 
 type readCacheBatchOperation struct {
 	ReadCache *ReadCache

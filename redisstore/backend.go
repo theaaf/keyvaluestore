@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.aaf.cloud/platform/keyvaluestore"
+	"github.com/theaaf/keyvaluestore"
 )
 
 type Backend struct {

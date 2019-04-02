@@ -7,8 +7,8 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/stretchr/testify/assert"
 
-	"github.aaf.cloud/platform/keyvaluestore"
-	"github.aaf.cloud/platform/keyvaluestore/keyvaluestoretest"
+	"github.com/theaaf/keyvaluestore"
+	"github.com/theaaf/keyvaluestore/keyvaluestoretest"
 )
 
 func newRedisTestClient() (*redis.Client, error) {

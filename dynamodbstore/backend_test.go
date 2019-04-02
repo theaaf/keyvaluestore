@@ -13,8 +13,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 
-	"github.aaf.cloud/platform/keyvaluestore"
-	"github.aaf.cloud/platform/keyvaluestore/keyvaluestoretest"
+	"github.com/theaaf/keyvaluestore"
+	"github.com/theaaf/keyvaluestore/keyvaluestoretest"
 )
 
 func newDynamoDBTestConfig() (*aws.Config, error) {
