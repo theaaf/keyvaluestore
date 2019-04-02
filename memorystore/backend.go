@@ -22,6 +22,13 @@ func NewBackend() *Backend {
 	}
 }
 
+// Erases everything in the backend and makes it like-new.
+func (b *Backend) Reinitialize() {
+	b.mutex.Lock()
+	defer b.mutex.Unlock()
+	b.m = make(map[string]interface{})
+}
+
 func (b *Backend) Delete(key string) (bool, error) {
 	b.mutex.Lock()
 	defer b.mutex.Unlock()
