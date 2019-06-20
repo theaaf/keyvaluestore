@@ -1,9 +1,10 @@
 package dynamodbstore
 
 import (
-	"github.com/aws/aws-dax-go/dax"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
+
+	"github.com/theaaf/aws-dax-go/dax"
 )
 
 type DaxBackendClient struct {
